@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20230525-0849-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.26.3"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Windows"
+	Hostname="BB-DT-0032"
+	OSRelease=" Professional"
+	OSVersion=" (Build 19044)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="10"
+	ProcessorCacheSize="-1"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="16661"
+	TotalPhysicalMemory="12170"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="3392"
+	>
+	<Testing>
+		<StartDateTime>May 25 11:52 Egypt Daylight Time</StartDateTime>
+		<StartTestTime>1685004740</StartTestTime>
+		<TestList>
+			<Test>./Test/sumFunctionTest</Test>
+		</TestList>
+		<Test Status="failed">
+			<Name>sumFunctionTest</Name>
+			<Path>./Test</Path>
+			<FullName>./Test/sumFunctionTest</FullName>
+			<FullCommandLine>E:\software_testing\Gtest_template\build\Test\Debug\sumFunctionTest.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0244045</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>E:\software_testing\Gtest_template\build\Test\Debug\sumFunctionTest.exe</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJytVduK2zAQfddXTN9siI2dzaasYR8CzS6FspQ4baFJKFpn4ghkyZXkpP37ynFY7DhpbdwBgy7jmXOkM6NFIQQTKWSUCceFnZIZzKO1ljtzpAp/GNTG7q+fy4GdZTmnBteplCnHcq0+1CpZpyfHMpyfJGT1+GYbWJxzTaD00VWy8DQBXTCDPll5b7aBZy5fKa/2URyYkiJDYX3ReEV+4dwIqovsqRCJYVKQFSy+vMDJNvUNf6ZkIbbfUUnSgfGyJFguxbUQSZ47D24EqJRUEcx/5ZgY3AL+LChn5jfIHZg9aoQD5QXqiACE9qvBcIJR6JIS3bc9S/bAdAReaFHD0+zjp/mH26jBCSHT7m2CL5hSww749ZR7EMlw0pNlcMHSC6/QHA/DdN8Tk83XAuW1UAXDQE0HHtQ1SOPbcmje8b8lIVVG+X8QxDjoyXN6wXPS1sPdMERh30K8rMT70fRKJQ7CNB6KyZZN0AL18Bc91C64T4MYKof3baIROIEL7x7BadecOwKaGHsOtt7goG0VdFF4SSmoKHVp/eDcWWcw0lDukm5vi0GqvK08iubTdfPJAkWF30xkmXyexXHFJKh+9Jv8zuFGwJkuJfGKXB6jLk2/ayfoppCOp06IRXz2W87jZUz+AFnuwCA=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>May 25 11:52 Egypt Daylight Time</EndDateTime>
+		<EndTestTime>1685004740</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

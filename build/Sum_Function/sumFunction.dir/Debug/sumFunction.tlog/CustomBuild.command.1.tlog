@@ -1,0 +1,10 @@
+^E:\SOFTWARE_TESTING\GTEST_TEMPLATE\SUM_FUNCTION\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/software_testing/Gtest_template -BE:/software_testing/Gtest_template/build --check-stamp-file E:/software_testing/Gtest_template/build/Sum_Function/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

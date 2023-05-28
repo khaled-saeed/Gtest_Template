@@ -1,0 +1,71 @@
+Start testing: May 25 11:52 Egypt Daylight Time
+----------------------------------------------------------
+1/1 Testing: sumFunctionTest
+1/1 Test: sumFunctionTest
+Command: "E:/software_testing/Gtest_template/build/Test/Debug/sumFunctionTest.exe"
+Directory: E:/software_testing/Gtest_template/build/Test
+"sumFunctionTest" start time: May 25 11:52 Egypt Daylight Time
+Output:
+----------------------------------------------------------
+Running main() from E:\software_testing\Gtest_template\googletest\googletest\src\gtest_main.cc
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from sumFunction
+[ RUN      ] sumFunction.AroundZero
+E:\software_testing\Gtest_template\Test\testSumFunction.cpp(9): error: Expected equality of these values:
+  1
+  sumFunction(0,1)
+    Which is: -1
+[  FAILED  ] sumFunction.AroundZero (1 ms)
+[ RUN      ] sumFunction.NegativeValues
+E:\software_testing\Gtest_template\Test\testSumFunction.cpp(14): error: Expected equality of these values:
+  0
+  sumFunction(-1,1)
+    Which is: -2
+E:\software_testing\Gtest_template\Test\testSumFunction.cpp(15): error: Expected equality of these values:
+  -2
+  sumFunction(-1,-1)
+    Which is: 0
+E:\software_testing\Gtest_template\Test\testSumFunction.cpp(16): error: Expected equality of these values:
+  0
+  sumFunction(1,-1)
+    Which is: 2
+[  FAILED  ] sumFunction.NegativeValues (1 ms)
+[ RUN      ] sumFunction.NormalValues
+E:\software_testing\Gtest_template\Test\testSumFunction.cpp(20): error: Expected equality of these values:
+  6
+  sumFunction(4,1)
+    Which is: 3
+E:\software_testing\Gtest_template\Test\testSumFunction.cpp(21): error: Expected equality of these values:
+  11
+  sumFunction(5,6)
+    Which is: -1
+E:\software_testing\Gtest_template\Test\testSumFunction.cpp(22): error: Expected equality of these values:
+  11
+  sumFunction(1,10)
+    Which is: -9
+[  FAILED  ] sumFunction.NormalValues (1 ms)
+[ RUN      ] sumFunction.NegativeVales
+E:\software_testing\Gtest_template\Test\testSumFunction.cpp(27): error: Expected: (0) != (sumFunction(-1,-1)), actual: 0 vs 0
+[  FAILED  ] sumFunction.NegativeVales (0 ms)
+[----------] 4 tests from sumFunction (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 4 tests, listed below:
+[  FAILED  ] sumFunction.AroundZero
+[  FAILED  ] sumFunction.NegativeValues
+[  FAILED  ] sumFunction.NormalValues
+[  FAILED  ] sumFunction.NegativeVales
+
+ 4 FAILED TESTS
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Failed.
+"sumFunctionTest" end time: May 25 11:52 Egypt Daylight Time
+"sumFunctionTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 25 11:52 Egypt Daylight Time
